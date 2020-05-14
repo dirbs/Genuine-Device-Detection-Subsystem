@@ -1,0 +1,94 @@
+{
+  "name": "gdds",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "http://www.example.com/gdds",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-es2015": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "fetch-mock": "^8.3.1",
+    "jest": "^23.6.0",
+    "jest-mock-axios": "^2.1.11",
+    "react-test-renderer": "^16.6.0",
+    "redux-mock-store": "^1.5.4"
+  },
+  "dependencies": {
+    "airbnb-browser-shims": "^3.2.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "base-64": "^0.1.0",
+    "bootstrap": "^4.1.1",
+    "file-saver": "^2.0.0-rc.4",
+    "font-awesome": "4.7.0",
+    "formik": "^0.11.11",
+    "i18next": "^11.3.6",
+    "i18next-browser-languagedetector": "^2.2.2",
+    "jest-localstorage-mock": "^2.3.0",
+    "jwt-decode": "^2.2.0",
+    "keycloak-js": "^4.1.0",
+    "node-fetch": "^2.6.0",
+    "node-sass": "^4.9.4",
+    "ramda": "^0.25.0",
+    "react": "^16.6.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-content-loader": "^3.1.2",
+    "react-dom": "^16.6.0",
+    "react-helmet": "^5.2.0",
+    "react-i18next": "^7.8.1",
+    "react-js-pagination": "^3.0.2",
+    "react-loadingg": "^1.6.2",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "2.1.1",
+    "react-select": "^1.2.1",
+    "react-toastify": "^4.1.0",
+    "react-transition-group": "2.2.1",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "simplebar-react": "^2.1.0",
+    "sinon": "^7.1.1",
+    "sweetalert2": "^8.11.1",
+    "sweetalert2-react-content": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!/node_modules/",
+      "!src/i18n.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js"
+    ]
+  }
+}
